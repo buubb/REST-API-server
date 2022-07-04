@@ -1,6 +1,7 @@
 package com.example.restful;
 
-// 7/5 00:37 юлю╞╨С
+// 7/5 00:37 О©╫О©╫О©╫О©╫О©╫О©╫
+// 7/5 00:40 К╞╪Л≤│
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
