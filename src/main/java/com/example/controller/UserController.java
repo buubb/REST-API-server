@@ -1,9 +1,8 @@
 package com.example.controller;
 
-/*7/7 03:24 ÀÌÀ¯ºó
- Âü°í url : https://suyeoniii.tistory.com/79?category=858035
- Âü°í url : https://velog.io/@shwncho/Spring-Boot-%EC%B9%B4%EC%B9%B4%EC%98%A4-%EB%A1%9C%EA%B7%B8%EC%9D%B8-APIoAuth-2.0#5-access_token-%EB%B0%9B%EA%B8%B0
- Ä«Ä«¿À °£Æí ·Î±×ÀÎ Á¢¼Ó ÁÖ¼Ò : https://kauth.kakao.com/oauth/authorize?client_id=7faa972eec111484c56a4b95aa275f2e&redirect_uri=http://localhost:8000/sungshinplanit/kakao/callback&response_type=code*/
+// 7/7 03:24 Ã€ÃŒÃ€Â¯ÂºÃ³
+// Ã‚Ã¼Â°Ã­ url : https://suyeoniii.tistory.com/79?category=858035
+// Ã‚Ã¼Â°Ã­ url : https://velog.io/@shwncho/Spring-Boot-%EC%B9%B4%EC%B9%B4%EC%98%A4-%EB%A1%9C%EA%B7%B8%EC%9D%B8-APIoAuth-2.0#5-access_token-%EB%B0%9B%EA%B8%B0
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -14,11 +13,11 @@ import lombok.AllArgsConstructor;
 
 @RestController
 @AllArgsConstructor
-@RequestMapping("/sungshinplanit")
+@RequestMapping("/login")
 public class UserController {
 
 	/**
-	 * Ä«Ä«¿À callback [GET] /sungshinplanit/kakao/callback
+	 * Ã„Â«Ã„Â«Â¿Ã€ callback [GET] /login/kakao/callback
 	 */
 	@ResponseBody
 	@GetMapping("/kakao")
